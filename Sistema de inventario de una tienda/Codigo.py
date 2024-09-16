@@ -36,7 +36,7 @@ while True:
         while True:
             Objeto_comprado = input("Ingresa el nombre del producto: ").capitalize()
             
-            if Objeto_comprado in Objetos:
+            if Objeto_comprado in Objetos: #Explicacion en la libreta
                 print(f"{Objeto_comprado} tiene {Objetos[Objeto_comprado]} unidades disponibles.")
                 Cantidad_comprada = int(input(f"¿Cuántas quiere comprar de {Objeto_comprado}?: "))
                 
