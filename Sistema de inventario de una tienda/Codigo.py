@@ -2,7 +2,7 @@ import os
 import time
 
 def limpiar_pantalla():
-    os.system('clear')  # Si estás en Windows, usa 'cls'
+    os.system('clear')  
 
 print("¡Bienvenido a la tienda Viani!")
 Nombre_cliente = input("¿Cómo se llama caballero/a?: ")
